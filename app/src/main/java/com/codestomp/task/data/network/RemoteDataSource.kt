@@ -17,7 +17,7 @@ class RemoteDataSource {
                 .addInterceptor{ chain ->  
                     chain.proceed(chain.request().newBuilder().also {
                         it.addHeader("Authorization","Bearer $userToken").
-                                addHeader("x-api-key","f6ecf7af26a643f08783b2da85f77436")
+                                addHeader("x-api-key","533af958594143758318137469b41ba9")
                     }.build())
                 }
                 .also { client ->
