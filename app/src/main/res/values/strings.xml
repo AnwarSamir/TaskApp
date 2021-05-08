@@ -14,4 +14,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="welcome_txt">Welcome</string>
     <string name="user_name_txt">Tony Roshdy</string>
+    <string name="search_txt">Search</string>
 </resources>
